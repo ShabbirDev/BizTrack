@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/AppTheme.AppBarOverlay">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/ProfileToolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="?attr/colorPrimary"
+                app:title="History">
+
+
+            </android.support.v7.widget.Toolbar>
+
+        </android.support.design.widget.AppBarLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <TextView
+
+                style="@style/customer_history_title_style"
+                android:text="Shopped" />
+
+            <TextView
+
+                style="@style/customer_history_title_style"
+                android:text="Recievable" />
+
+            <TextView
+                style="@style/customer_history_title_style"
+                android:text="  CashPaid" />
+            <TextView
+                style="@style/customer_history_title_style"
+                android:text="  CashBack" />
+
+
+            <TextView
+                style="@style/customer_history_title_style"
+                android:text="  Due" />
+
+            <TextView
+                style="@style/customer_history_title_style"
+                android:text=" Date" />
+
+            <TextView
+                style="@style/customer_history_title_style"
+                android:text="" />
+
+
+            <!--<TableLayout-->
+            <!--android:id="@+id/HistoryLayout"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content">-->
+
+            <!--<TableRow>-->
+
+            <!--<TextView-->
+
+            <!--style="@style/customer_history_title_style"-->
+            <!--android:text="  Recievable" />-->
+
+            <!--<TextView-->
+            <!--style="@style/customer_history_title_style"-->
+            <!--android:text="    CashPaid" />-->
+
+            <!--<TextView-->
+            <!--style="@style/customer_history_title_style"-->
+            <!--android:text="    Remaining" />-->
+
+            <!--<TextView-->
+            <!--style="@style/customer_history_title_style"-->
+            <!--android:text="    Date" />-->
+
+            <!--</TableRow>-->
+
+            <!--&lt;!&ndash;<TableRow>&ndash;&gt;-->
+
+            <!--&lt;!&ndash;<TextView&ndash;&gt;-->
+
+            <!--&lt;!&ndash;android:id="@+id/Recievable"&ndash;&gt;-->
+            <!--&lt;!&ndash;style="@style/customer_history_row_style"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:text="Recievable" />&ndash;&gt;-->
+
+            <!--&lt;!&ndash;<TextView&ndash;&gt;-->
+            <!--&lt;!&ndash;android:id="@+id/CashPaid"&ndash;&gt;-->
+            <!--&lt;!&ndash;style="@style/customer_history_row_style"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:text="CashPaid" />&ndash;&gt;-->
+
+            <!--&lt;!&ndash;<TextView&ndash;&gt;-->
+            <!--&lt;!&ndash;android:id="@+id/RemainingDue"&ndash;&gt;-->
+            <!--&lt;!&ndash;style="@style/customer_history_row_style"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:text="Remaining" />&ndash;&gt;-->
+
+            <!--&lt;!&ndash;<TextView&ndash;&gt;-->
+            <!--&lt;!&ndash;android:id="@+id/Date"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+            <!--&lt;!&ndash;style="@style/customer_history_row_style"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:text="2018-01-17 03:22" />&ndash;&gt;-->
+
+
+            <!--&lt;!&ndash;</TableRow>&ndash;&gt;-->
+
+
+            <!--</TableLayout>-->
+
+
+        </LinearLayout>
+
+        <View style="@style/viewStyle" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/RecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></android.support.v7.widget.RecyclerView>
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

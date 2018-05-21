@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="horizontal">-->
+
+        <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/HistoryLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <!--<TableRow-->
+                <!--android:id="@+id/tableRow4"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:gravity="center_horizontal">-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/textView9"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_span="6"-->
+                    <!--android:gravity="center_horizontal"-->
+                    <!--android:text="History"-->
+                    <!--android:textSize="18dp"-->
+                    <!--android:textStyle="bold"-->
+                    <!--android:typeface="serif" />-->
+            <!--</TableRow>-->
+
+            <!--<View style="@style/viewStyle" />-->
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="0dp">
+
+                <View style="@style/verticalLineStyle"/>
+                <TextView
+                    style="@style/customer_history_title_style"
+                    android:text="Shopped" />
+
+                <View style="@style/verticalLineStyle"/>
+                <TextView
+                    style="@style/customer_history_title_style"
+                    android:text="Recievable"
+                    android:typeface="serif" />
+
+                <View style="@style/verticalLineStyle"/>
+                <TextView
+                    style="@style/customer_history_title_style"
+                    android:text="Cashpaid"
+                    android:typeface="serif" />
+
+                <View style="@style/verticalLineStyle"/>
+                <TextView
+                    style="@style/customer_history_title_style"
+                    android:text="CashBack"
+                    android:typeface="serif" />
+
+                <View style="@style/verticalLineStyle"/>
+                <TextView
+                    style="@style/customer_history_title_style"
+                    android:text="Remaining Due"
+                    android:typeface="serif" />
+
+                <View style="@style/verticalLineStyle"/>
+                <TextView
+                    style="@style/customer_history_title_style"
+                    android:text="Date"
+                    android:typeface="serif" />
+                <View style="@style/verticalLineStyle"/>
+            </TableRow>
+
+            <!--<View style="@style/viewStyle" />-->
+            <!--<TableRow-->
+            <!--android:padding="5dp"-->
+            <!--android:id="@+id/tableRow2"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content">-->
+
+            <!--<TextView-->
+            <!--android:id="@+id/Shopped"-->
+            <!--style="@style/customer_history_row_style"-->
+            <!--android:text="Shopped" />-->
+
+            <!--<TextView-->
+            <!--android:id="@+id/Recievable"-->
+            <!--style="@style/customer_history_row_style"-->
+            <!--android:text="26.F" />-->
+
+            <!--<TextView-->
+            <!--android:id="@+id/Cashpaid"-->
+            <!--style="@style/customer_history_row_style"-->
+            <!--android:text="Cashpaid" />-->
+
+            <!--<TextView-->
+            <!--android:id="@+id/CashBack"-->
+            <!--style="@style/customer_history_row_style"-->
+            <!--android:text="CashBack" />-->
+
+            <!--<TextView-->
+            <!--android:id="@+id/Due"-->
+            <!--style="@style/customer_history_row_style"-->
+            <!--android:text="Due" />-->
+
+            <!--<TextView-->
+            <!--android:id="@+id/Date"-->
+            <!--style="@style/customer_history_row_style"-->
+            <!--android:text="Date" />-->
+
+            <!--</TableRow>-->
+
+
+        </TableLayout>
+
+    <!--</LinearLayout>-->
+
+</HorizontalScrollView>

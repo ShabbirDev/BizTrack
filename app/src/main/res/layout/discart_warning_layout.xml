@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:text="This product will be removed from Cart "
+            style="@style/warning_textview_style" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <Button
+                android:id="@+id/ConfirmYes"
+                android:text="Remove"
+                style="@style/negative_button_style" />
+
+            <Button
+                android:id="@+id/ConfirmNo"
+                android:text="Cancel"
+                style="@style/positive_button_style"
+                />
+
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--<declare-styleable name="CustomTextView">-->
+        <!--<attr name="drawableLeftCompat" format="reference"/>-->
+        <!--<attr name="drawableRightCompat" format="reference"/>-->
+        <!--<attr name="drawableTopCompat" format="reference"/>-->
+        <!--<attr name="drawableBottomCompat" format="reference"/>-->
+    <!--</declare-styleable>-->
+
+    <declare-styleable name="CustomEditText">
+        <attr name="drawableLeftCompat" format="reference"/>
+        <attr name="drawableRightCompat" format="reference"/>
+        <attr name="drawableTopCompat" format="reference"/>
+        <attr name="drawableBottomCompat" format="reference"/>
+    </declare-styleable>
+
+    <!--<declare-styleable name="CustomImageView">-->
+        <!--<attr name="border_width" format="reference"/>-->
+        <!--<attr name="border_color" format="reference"/>-->
+    <!--</declare-styleable>-->
+
+
+</resources>

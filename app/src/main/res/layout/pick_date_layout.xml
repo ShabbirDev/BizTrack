@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="40dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="From"
+        style="@style/name_view_style"
+        android:layout_gravity="center"
+        />
+    <EditText
+        android:id="@+id/FromDate"
+        style="@style/edittext_style"
+         />
+
+    <TextView
+        style="@style/name_view_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="To"
+        android:layout_gravity="center"
+        />
+
+
+    <EditText
+        android:id="@+id/ToDate"
+        style="@style/edittext_style"
+         />
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/Ok"
+        style="@style/positive_button_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OK"
+        android:layout_gravity="center"
+        />
+
+
+</LinearLayout>

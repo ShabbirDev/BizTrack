@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/AppTheme.AppBarOverlay">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/ProfileToolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="?attr/colorPrimary"
+                app:title="New Customer">
+
+
+            </android.support.v7.widget.Toolbar>
+
+        </android.support.design.widget.AppBarLayout>
+
+
+        <LinearLayout
+            android:id="@+id/ProfileLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <com.zerocool.biztrack.Utils.CustomEditText
+                android:id="@+id/CustomerName"
+                style="@style/edittext_style"
+                android:hint="Customer Name"
+                app:drawableRightCompat="@drawable/ic_user_name" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/CustomerImage"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/circle_background_yellow"
+            android:src="@drawable/customer_avatar" />
+
+
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.zerocool.biztrack.Utils.CustomEditText
+                    android:id="@+id/PhoneNumber"
+                    style="@style/edittext_style"
+                    android:layout_gravity="center_vertical"
+                    android:hint="Phone Number"
+                    android:inputType="phone"
+                    android:paddingLeft="55dp"
+                    app:drawableRightCompat="@drawable/ic_smartphone" />
+
+                <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_gravity="center_vertical"-->
+                <!--android:paddingLeft="10dp"-->
+                <!--android:text="+880"-->
+                <!--android:textSize="18sp" />-->
+
+            </FrameLayout>
+
+            <com.zerocool.biztrack.Utils.CustomEditText
+                android:id="@+id/Address"
+                style="@style/edittext_style"
+                android:hint="Address"
+                android:inputType="textMultiLine"
+                app:drawableRightCompat="@drawable/ic_map_marker" />
+
+
+            <!--<Button-->
+            <!--android:id="@+id/CreateCustomerPrifile"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Create Customer Profile" />-->
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ProfileLayout"
+            android:orientation="vertical">
+
+            <Button
+
+                android:id="@+id/CreateCustomerPrifile"
+                style="@style/button_style"
+                android:text="Create Customer Profile" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

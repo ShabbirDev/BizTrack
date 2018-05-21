@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ProductCardView"
+    style="@style/cardview_style"
+    android:layout_height="30dp"
+    app:cardBackgroundColor="@color/colorWhite"
+    app:cardCornerRadius="0dp"
+    app:cardElevation="0dp"
+    app:cardUseCompatPadding="true">
+
+    <!--<ScrollView android:layout_width="match_parent"--><!--android:layout_height="wrap_content"-->
+
+    <!--xmlns:android="http://schemas.android.com/apk/res/android">-->
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        >
+
+        <LinearLayout
+            android:layout_gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:paddingLeft="5dp">
+
+            <TextView
+                android:id="@+id/TotalShopped"
+                style="@style/customer_history_row_style"
+                android:text="Shopped" />
+
+            <TextView
+                android:id="@+id/Recievable"
+                style="@style/customer_history_row_style"
+                android:text="Recievable" />
+
+            <TextView
+                android:id="@+id/CashPaid"
+                style="@style/customer_history_row_style"
+                android:text="CashPaid" />
+
+            <TextView
+                android:id="@+id/CashBack"
+                style="@style/customer_history_row_style"
+                android:text="None" />
+
+
+            <TextView
+                android:id="@+id/RemainingDue"
+                style="@style/customer_history_row_style"
+                android:text="Remaining" />
+
+            <TextView
+                android:id="@+id/Date"
+                style="@style/customer_history_row_style"
+                android:text="Date" />
+
+            <TextView
+                android:id="@+id/DeleteHistory"
+                style="@style/customer_history_row_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="delete"
+                android:textColor="@color/colorAccent" />
+
+
+        </LinearLayout>
+
+        <View style="@style/viewStyle" />
+        <!--<TextView-->
+        <!--android:id="@+id/CashBack"-->
+        <!--style="@style/customer_history_row_style"-->
+        <!--android:layout_marginLeft="5dp"-->
+        <!--android:layout_marginTop="0dp"-->
+        <!--android:gravity="top"-->
+        <!--android:text="Cashback"-->
+        <!--android:visibility="gone" />-->
+
+    </LinearLayout>
+
+    <!--</ScrollView>-->
+
+
+</android.support.v7.widget.CardView>
+
+
+
+
+
+

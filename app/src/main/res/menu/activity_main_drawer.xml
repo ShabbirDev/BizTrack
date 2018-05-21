@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navigation_home"
+            android:icon="@drawable/ic_person"
+            android:title="@string/navigation_home" />
+        <!--<item-->
+            <!--android:id="@+id/nav_home"-->
+            <!--android:icon="@mipmap/ic_launcher"-->
+            <!--android:title="@string/nav_home" />-->
+        <!--<item-->
+            <!--android:id="@+id/navigation_new_entry"-->
+            <!--android:icon="@drawable/ic_new_entry"-->
+            <!--android:title="@string/navigation_new_entry" />-->
+        <!--<item-->
+            <!--android:id="@+id/navigation_Inventory_list"-->
+            <!--android:icon="@drawable/ic_completed_survey"-->
+            <!--android:title="@string/navigation_Inventory_list" />-->
+
+        <!--<item-->
+            <!--android:id="@+id/navigation_to_purchase"-->
+            <!--android:icon="@drawable/ic_notifications"-->
+            <!--android:title="@string/navigation_to_purchase" />-->
+
+        <item
+            android:icon="@drawable/ic_all_products"
+            android:title="@string/navigation_all_product" />
+        <item
+            android:icon="@drawable/ic_all_products"
+            android:title="@string/navigation_all_customers" />
+
+
+    </group>
+
+
+    <!--<item android:title="Other">-->
+        <!--<menu>-->
+            <!--<item-->
+                <!--android:id="@+id/nav_about_us"-->
+                <!--android:title="@string/nav_about_us" />-->
+            <!--<item-->
+                <!--android:id="@+id/nav_privacy_policy"-->
+                <!--android:title="@string/privacy_policy" />-->
+        <!--</menu>-->
+    <!--</item>-->
+
+
+
+</menu>

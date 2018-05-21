@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/action_add_new"
+        android:title="Add New"
+        android:icon="@mipmap/ic_add_new"
+        android:orderInCategory="300"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/action_refresh_products"
+        android:title="Refresh"
+        android:icon="@mipmap/ic_refresh"
+        android:orderInCategory="200"
+        app:showAsAction="always" />
+
+
+
+    <item
+        android:id="@+id/action_all_products"
+        android:orderInCategory="100"
+        android:title="@string/action_all_products"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/action_carted"
+        android:orderInCategory="100"
+        android:title="@string/action_carted"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_instock"
+        android:orderInCategory="100"
+        android:title="In Stock"
+        app:showAsAction="never" />
+
+
+    <!--<item-->
+        <!--android:id="@+id/action_discarted"-->
+        <!--android:orderInCategory="101"-->
+        <!--android:title="@string/action_discarted"-->
+        <!--app:showAsAction="never" />-->
+
+</menu>

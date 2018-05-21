@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/AppTheme.AppBarOverlay">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/ProfileToolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="?attr/colorPrimary"
+                app:title="Edit Profile">
+
+
+            </android.support.v7.widget.Toolbar>
+
+        </android.support.design.widget.AppBarLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <com.zerocool.biztrack.Utils.CustomEditText
+                android:id="@+id/CustomerName"
+                style="@style/edittext_style"
+                app:drawableRightCompat="@drawable/ic_user_name"
+                android:hint="Customer Name" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/CustomerImage"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/circle_background_yellow"
+                android:src="@drawable/customer_avatar" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.zerocool.biztrack.Utils.CustomEditText
+                    android:id="@+id/PhoneNumber"
+                    style="@style/edittext_style"
+                    android:paddingLeft="55dp"
+                    android:hint="Phone Number"
+                    android:layout_gravity="center_vertical"
+                    android:inputType="phone"
+                    app:drawableRightCompat="@drawable/ic_smartphone" />
+
+                <!--<TextView-->
+                    <!--android:textSize="18sp"-->
+                    <!--android:paddingLeft="10dp"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_gravity="center_vertical"-->
+                    <!--android:text="+880" />-->
+
+            </FrameLayout>
+
+            <com.zerocool.biztrack.Utils.CustomEditText
+                android:id="@+id/Address"
+                style="@style/edittext_style"
+                app:drawableRightCompat="@drawable/ic_map_marker"
+                android:hint="Address"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <Button
+                android:id="@+id/Submit"
+                style="@style/button_style"
+                android:text="Submit"
+                />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>
+
+

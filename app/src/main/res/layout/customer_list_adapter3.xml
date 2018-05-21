@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:background="@drawable/imagebutton_effect"
+    android:orientation="vertical"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="2dp"
+
+    >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp"
+        android:orientation="vertical">
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:paddingBottom="0dp"
+            android:paddingTop="0dp"
+
+
+            >
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/CustomerImage"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/circle_background_yellow"
+                    app:srcCompat="@drawable/ic_orion_user" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_toEndOf="@id/CustomerImage"
+                android:layout_toRightOf="@id/CustomerImage"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/Serial"
+                        style="@style/serial_textview_style"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+
+                    <TextView
+                        android:id="@+id/CustomerName"
+                        android:text="Shabbir"
+style="@style/name_view_style" />
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/CustomerAddress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Dhaka, Bangladesh"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/CustomerDue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="100"
+                    android:textSize="11sp" />
+
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/ButtonAction"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/imagebutton_effect"
+                android:src="@drawable/ic_action_more_vert" />
+
+            <!--<View-->
+            <!--android:id="@+id/view"-->
+            <!--android:layout_marginTop="5dp"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="1dp"-->
+            <!--android:layout_alignParentLeft="true"-->
+            <!--android:layout_alignParentStart="true"-->
+            <!--android:layout_below="@+id/textView"-->
+            <!--android:background="@color/colorPrimary" />-->
+
+
+        </RelativeLayout>
+
+        <!--<View-->
+        <!--android:id="@+id/view"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="1dp"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_alignParentStart="true"-->
+        <!--android:layout_below="@+id/textView"-->
+        <!--android:layout_marginTop="5dp"-->
+        <!--android:background="@color/colorPrimary" />-->
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

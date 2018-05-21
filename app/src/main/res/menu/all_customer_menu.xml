@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/action_add_new_customers"
+        android:title="Add New Customers"
+        android:icon="@mipmap/ic_add_new"
+        android:orderInCategory="203"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/action_refresh_customers"
+        android:title="Refresh"
+        android:icon="@mipmap/ic_refresh"
+        android:orderInCategory="202"
+        app:showAsAction="never" />
+
+
+
+    <item
+        android:id="@+id/action_all_customers"
+        android:orderInCategory="100"
+        android:title="All Customers"
+        app:showAsAction="never" />
+    <item
+        android:orderInCategory="100"
+        android:title="Valued Customers"
+        app:showAsAction="never" >
+
+        <menu>
+
+            <item
+                android:id="@+id/action_valued_customers_ofday"
+                android:orderInCategory="100"
+                android:title="Of Today"
+                app:showAsAction="never" />
+
+
+            <item
+                android:id="@+id/action_valued_customers_ofweek"
+                android:orderInCategory="100"
+                android:title="Of Weeks"
+                app:showAsAction="never" />
+
+
+            <item
+                android:id="@+id/action_valued_customers_ofmonth"
+                android:orderInCategory="100"
+                android:title="Of This Month"
+                app:showAsAction="never" />
+
+            <item
+                android:id="@+id/action_valued_customers_custom"
+                android:orderInCategory="100"
+                android:title="Custom"
+                app:showAsAction="never" />
+
+
+
+        </menu>
+
+
+    </item>
+    <item
+        android:id="@+id/action_dued_customers"
+        android:orderInCategory="100"
+        android:title="Due Customers"
+        app:showAsAction="never" />
+
+
+    <!--<item-->
+        <!--android:id="@+id/action_carted"-->
+        <!--android:orderInCategory="100"-->
+        <!--android:title="@string/action_carted"-->
+        <!--app:showAsAction="never" />-->
+
+
+
+    <item
+        android:id="@+id/action_search"
+        android:icon="@mipmap/ic_search"
+        android:title="Search"
+        app:showAsAction="always|collapseActionView"
+        app:actionViewClass="android.support.v7.widget.SearchView"/>
+
+
+    <!--<item-->
+        <!--android:id="@+id/action_discarted"-->
+        <!--android:orderInCategory="101"-->
+        <!--android:title="@string/action_discarted"-->
+        <!--app:showAsAction="never" />-->
+
+</menu>

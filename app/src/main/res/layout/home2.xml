@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fcfcfc"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <!--<ImageView-->
+                <!--android:layout_width="100dp"-->
+                <!--android:layout_height="100dp"-->
+                <!--android:layout_gravity="center_vertical"-->
+                <!--android:padding="10dp"-->
+                <!--android:src="@drawable/dress" />-->
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_horizontal"
+                android:text="@string/app_name"
+                android:textColor="@color/colorPrimary"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+
+        </LinearLayout>
+
+
+        <View style="@style/viewStyle" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clipToPadding="false"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:layout_margin="0dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="@dimen/home_cardview_radius"
+                app:cardElevation="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="@dimen/dashboard_imageview_shape"
+                        android:layout_height="@dimen/dashboard_imageview_shape"
+                        android:background="@drawable/circle_background_purple"
+                        android:padding="10dp"
+                        app:srcCompat="@drawable/ic_orion_money_bag" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="SALE"
+                        android:textStyle="bold" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="10dp"
+                        android:background="@color/lightgray" />
+
+                    <TextView
+                        android:id="@+id/TotalSale"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="10000"
+                        android:textColor="@color/deeppurple"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clipToPadding="false"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="160dp"
+                android:layout_height="190dp"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="@dimen/home_cardview_radius"
+                app:cardElevation="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="@dimen/dashboard_imageview_shape"
+                        android:layout_height="@dimen/dashboard_imageview_shape"
+                        android:background="@drawable/cerclebackgroundgreen"
+                        android:padding="10dp"
+                        app:srcCompat="@drawable/ic_attach_money_black_24dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="CASH"
+                        android:textStyle="bold" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="10dp"
+                        android:background="@color/lightgray" />
+
+                    <TextView
+                        android:id="@+id/TotalCash"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="10000"
+                        android:textColor="@color/green"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="160dp"
+                android:layout_height="190dp"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="@dimen/home_cardview_radius"
+                app:cardElevation="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:layout_width="@dimen/dashboard_imageview_shape"
+                        android:layout_height="@dimen/dashboard_imageview_shape"
+                        android:background="@drawable/cerclebackgroundpink"
+                        android:padding="10dp"
+                        app:srcCompat="@drawable/ic_orion_cash_dispenser" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="DUE"
+                        android:textStyle="bold" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_margin="10dp"
+                        android:background="@color/lightgray" />
+
+                    <TextView
+                        android:id="@+id/TotalReciavable"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="5000"
+                        android:textColor="@color/pink"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <!--<android.support.v7.widget.CardView-->
+            <!--android:foreground="?android:attr/selectableItemBackground"-->
+            <!--android:clickable="true"-->
+            <!--android:layout_width="160dp"-->
+            <!--android:layout_height="190dp"-->
+            <!--android:layout_margin="10dp">-->
+
+            <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:gravity="center"-->
+            <!--android:orientation="vertical">-->
+
+            <!--<ImageView-->
+            <!--android:layout_width="64dp"-->
+            <!--android:layout_height="64dp"-->
+            <!--android:background="@drawable/circle_background_yellow"-->
+            <!--android:padding="10dp"-->
+            <!--android:src="@drawable/ic_attach_file_black_24dp" />-->
+
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:text="Links"-->
+            <!--android:textStyle="bold" />-->
+
+            <!--<View-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="1dp"-->
+            <!--android:layout_margin="10dp"-->
+            <!--android:background="@color/lightgray" />-->
+
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:gravity="center"-->
+            <!--android:padding="5dp"-->
+            <!--android:text="Check your bank activities"-->
+            <!--android:textColor="@android:color/darker_gray" />-->
+
+            <!--</LinearLayout>-->
+            <!--</android.support.v7.widget.CardView>-->
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:clipToPadding="false"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/AddProduct"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="@dimen/home_cardview_radius"
+                app:cardElevation="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="@dimen/dashboard_imageview_shape"
+                        android:layout_height="@dimen/dashboard_imageview_shape"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@drawable/circle_background_purple"
+                        android:padding="10dp"
+                        app:srcCompat="@drawable/ic_orion_add_medication" />
+
+                    <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginTop="10dp"-->
+                    <!--android:text="SALE"-->
+                    <!--android:textStyle="bold" />-->
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/AddNewCustomer"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:layout_margin="10dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                app:cardCornerRadius="@dimen/home_cardview_radius"
+                app:cardElevation="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="@dimen/dashboard_imageview_shape"
+                        android:layout_height="@dimen/dashboard_imageview_shape"
+                        android:background="@drawable/cerclebackgroundgreen"
+                        android:padding="10dp"
+                        app:srcCompat="@drawable/ic_orion_add_user" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,9 @@
+<vector android:height="24dp" android:viewportHeight="64.0"
+    android:viewportWidth="64.0" android:width="24dp" xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#202020" android:pathData="M32,23m-5,0a5,5 0,1 1,10 0a5,5 0,1 1,-10 0"/>
+    <path android:fillColor="#202020" android:pathData="M40.4,30H23.6a1.6,1.6 0,0 0,-1.6 1.6v12.8a1.6,1.6 0,0 0,1.6 1.6H26v12.4a1.6,1.6 0,0 0,1.6 1.6h8.8a1.6,1.6 0,0 0,1.6 -1.6V46h2.4a1.6,1.6 0,0 0,1.6 -1.6V31.6a1.6,1.6 0,0 0,-1.6 -1.6z"/>
+    <path android:fillColor="#202020" android:pathData="M10,8m-4,0a4,4 0,1 1,8 0a4,4 0,1 1,-8 0"/>
+    <path android:fillColor="#202020" android:pathData="M16.4,15H3.6A1.6,1.6 0,0 0,2 16.6v9.8A1.6,1.6 0,0 0,3.6 28H6v10.4A1.6,1.6 0,0 0,7.6 40h4.8a1.6,1.6 0,0 0,1.6 -1.6V28h2.4a1.6,1.6 0,0 0,1.6 -1.6v-9.8a1.6,1.6 0,0 0,-1.6 -1.6z"/>
+    <path android:fillColor="#202020" android:pathData="M54,8m-4,0a4,4 0,1 1,8 0a4,4 0,1 1,-8 0"/>
+    <path android:fillColor="#202020" android:pathData="M60.4,15H47.6a1.6,1.6 0,0 0,-1.6 1.6v9.8a1.6,1.6 0,0 0,1.6 1.6H50v10.4a1.6,1.6 0,0 0,1.6 1.6h4.8a1.6,1.6 0,0 0,1.6 -1.6V28h2.4a1.6,1.6 0,0 0,1.6 -1.6v-9.8a1.6,1.6 0,0 0,-1.6 -1.6z"/>
+</vector>

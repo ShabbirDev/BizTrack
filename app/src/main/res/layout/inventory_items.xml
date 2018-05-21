@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ProductCardView"
+    style="@style/cardview_style"
+    app:cardBackgroundColor="@color/colorGrey"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="2dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+        <LinearLayout style="@style/vertical_linearlayout_style">
+            <TextView
+                android:id="@+id/Serial"
+                style="@style/serial_textview_style" />
+
+            <TextView
+                android:id="@+id/ProductName"
+                style="@style/name_view_style" />
+
+            <TextView
+                android:id="@+id/UnitPrice"
+                style="@style/price_textview_style" />
+
+
+        </LinearLayout>
+
+        <!--<ImageButton-->
+        <!--android:id="@+id/ButtonEdit"-->
+        <!--android:layout_width="50dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_marginLeft="65dp"-->
+        <!--android:layout_marginStart="120dp"-->
+        <!--android:layout_toEndOf="@+id/linearLayout"-->
+        <!--android:layout_toRightOf="@+id/linearLayout"-->
+        <!--android:src="@mipmap/ic_edit_product" />-->
+
+        <LinearLayout
+            style="@style/imagebutton_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/RemoveQuantity"
+                style="@style/quantity_button_style"
+                android:src="@mipmap/ic_remove_quantity" />
+
+            <TextView
+                android:id="@+id/Quantity"
+                style="@style/quantity_textview_style" />
+
+            <ImageButton
+                android:id="@+id/AddQuantity"
+                style="@style/quantity_button_style"
+                android:layout_marginRight="10dp"
+                android:src="@mipmap/ic_add_quantity" />
+
+            <ImageButton
+                android:id="@+id/Cart"
+                style="@style/imagebutton_style"
+                android:layout_marginTop="2dp"
+                android:src="@mipmap/ic_add_to_cart" />
+
+
+        </LinearLayout>
+
+        <!--<EditText-->
+        <!--android:id="@+id/Quantity"-->
+        <!--style="@style/quantity_textview_style" />-->
+
+
+        <!--<ImageButton-->
+        <!--android:id="@+id/Cart"-->
+        <!--style="@style/imagebutton_style"-->
+        <!--android:src="@mipmap/ic_add_to_cart"-->
+        <!--/>-->
+
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
+
+
